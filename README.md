@@ -16,6 +16,23 @@ The **Fingerprint Management System** is a Python-based application that enables
   - `opencv-python`
   - `ipywidgets`
 
-Install dependencies:
-```bash
-pip install opencv-python ipywidgets
+## Usage
+### Upload User Data
+1. Navigate to the **Upload User Data** section in the interface.
+2. Enter the following details:
+   - **First Name**: The user's first name.
+   - **Last Name**: The user's last name.
+   - **Nationality**: The user's nationality.
+3. Upload a fingerprint image by clicking the "Upload" button.
+4. Once all fields are filled, click the **Save** button to store the data in the database. You will receive a success message upon completion.
+
+### Search Fingerprint
+1. Navigate to the **Search Fingerprint** section in the interface.
+2. Upload a fingerprint image by clicking the "Upload" button.
+3. Click the **Search** button to initiate the search in the database.
+4. If a match is found, the following user details will be displayed:
+   - **First Name**
+   - **Last Name**
+   - **Nationality**
+5. If no match is found, an error message will be displayed indicating no results.
+
